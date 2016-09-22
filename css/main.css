@@ -29,3 +29,8 @@ body {
 figure {
   margin: 0;
 }
+
+.xs-3-4 {
+  margin-left: auto;
+  margin-right: auto;
+}
