@@ -36,10 +36,65 @@ figure {
 
 .grid {
   justify-content: center;
+  overflow: hidden;
+}
+
+.unit {
+  float: left;
+}
+
+.unit-s-1 {
+  width: 100%;
+}
+
+.xs-3-4 {
+  padding-bottom: 1em;
+}
+@media only screen and (min-width: 25em) {
+
+  .gutter {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .gutter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .unit-m-1 {
+    width: 100%;
+  }
+
+  .unit-m-1-2 {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .unit-l-1-3 {
+    width: 33.3333%;
+  }
+
+  .gutter {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
 }
 @media only screen and (min-width: 90em) {
 
   .space {
     margin-bottom: 1em;
+  }
+
+  .gutter {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
